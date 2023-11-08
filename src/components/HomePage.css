@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400;500&family=Creepster&family=Great+Vibes&family=Oswald&family=Raleway:wght@400;700&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  animation: fadeIn 2s ease-in-out forwards;
+  backface-visibility: hidden;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  opacity: 0.4;
+  z-index: -1;
+  background-image: url("../images/texasflag.jpg");
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+h1 {
+  font-family: "Great Vibes", cursive;
+  text-shadow: 4px 4px 6px black;
+  font-weight: bolder;
+  font-size: 125px;
+  color: rgb(17, 17, 141);
+  margin-top: 100px;
+  padding-top: 10px;
+  transform: translateZ(0);
+  will-change: transform;
+  animation: spin 4s ease-in-out 1;
+}
+@keyframes spin {
+  0% {
+    transform: rotate3d(0, 1, 0, 0deg) scale(0.1);
+  }
+  100% {
+    transform: rotate3d(0, 1, 0, 720deg) scale(1);
+  }
+}
+p {
+  display: flex;
+  justify-content: space-between;
+  color: blue;
+  padding: 10px;
+}
+.list1 {
+  text-decoration: none;
+  color: black;
+  margin: 0 10px;
+}
+.list2 {
+  text-decoration: none;
+  color: black;
+  margin: 0 10px;
+}
+.list3 {
+  text-decoration: none;
+  color: black;
+  margin: 0 10px;
+}
+.top {
+  /* background-image: url("../images/texasflag.jpg"); */
+  /* ("https://cdn.britannica.com/84/73184-050-05ED59CB/Sunflower-field-Fargo-North-Dakota.jpg"); */
+  display: flex;
+  justify-content: space-between;
+  color: blue;
+  padding: 10px;
+  /* background-repeat: no-repeat; */
+  /* background-size: cover; */
+}
+
+.about {
+  background-repeat: no-repeat;
+  background-size: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+.headshot img {
+  border-radius: 15%;
+  position: absolute;
+  top: 100px;
+  right: 150px;
+  box-shadow: 10px 10px 15px black;
+}
+.listitems {
+  background-color: blue;
+}
+
+/* @media screen and (max-width: 767px) {
+  body {
+    font-size: 16px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  body {
+    font-size: 18px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  body {
+    font-size: 20px;
+  }
+}
+ */

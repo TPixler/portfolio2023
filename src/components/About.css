@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400;500&family=Creepster&family=Dancing+Script&family=Great+Vibes&family=Oswald&family=Pacifico&family=Raleway:wght@400;700&display=swap");
+
+.card-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 10px;
+  width: 40%;
+  margin-top: -200px;
+}
+
+.container {
+  position: relative;
+  width: 20%;
+  min-width: 200px;
+  max-width: 250px;
+  width: 50%;
+  height: 450px;
+  float: left;
+  margin: 0 10px;
+  transform: scale(1);
+  transition: transform 0.3s;
+}
+
+.container:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.silhouette {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 100px;
+  height: 100px;
+  background-size: cover;
+  margin: auto;
+}
+
+.silhouette .cover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.information {
+  background-color: white;
+  border-radius: 10px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  margin: auto;
+  text-align: center;
+  transition: opacity 0.3s;
+  opacity: 0;
+  font-size: 15px;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.container:hover .information {
+  opacity: 1;
+}
+.silhouette img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+h2 {
+  font-family: "Pacifico";
+  color: rgb(166, 8, 8);
+  text-shadow: 2px 2px 4px black;
+  font-size: 30px;
+}
+
+.languages {
+  background-color: white;
+  border-radius: 10px;
+  /* height: 100%; */
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  margin: auto;
+  text-align: left;
+  transition: opacity 0.3s;
+  opacity: 0;
+  font-size: 18px;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.container:hover .languages {
+  opacity: 1;
+}
+.profile-picture {
+  width: 250px;
+}
+.card.language-card .silhouette .cover {
+  opacity: 0;
+}
+
+.card {
+  background-color: white;
+  height: calc(100% - 150px);
+  align-self: center;
+  border-radius: 10px;
+  text-align: center;
+  padding-top: 40%;
+  box-shadow: 0px 0px 12px -1px black;
+  margin: auto;
+  overflow: hidden;
+  position: relative;
+  background-image: url("../images/retroTexas.jpg");
+  background-size: calc(100% - 5px);
+  background-position: center;
+  background-repeat: no-repeat;
+  /* display: flex; 
+  flex-direction: column;
+  align-items: flex-start;  */
+}
+
+.language-card {
+  background-color: white;
+  height: calc(100% - 150px);
+  align-self: center;
+  border-radius: 10px;
+  text-align: center;
+  padding-top: 40%;
+  box-shadow: 0px 0px 12px -1px black;
+  margin: auto;
+  overflow: hidden;
+  position: relative;
+  background-image: url("../images/coding1.jpg");
+  background-size: calc(100% - 5px);
+  background-position: center;
+  background-repeat: no-repeat;
+}

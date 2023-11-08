@@ -1,0 +1,21 @@
+input {
+  background-color: gray;
+  border: 10px;
+  box-shadow: 5px;
+}
+.message {
+  background-color: gray;
+  border: 10px;
+  /* box-shadow: 5px; */
+  border-color: darkgrey;
+}
+.contact {
+  font-family: "Great Vibes", cursive;
+  text-shadow: 4px 4px 6px black;
+  font-weight: bolder;
+  font-size: 50px;
+  color: rgb(17, 17, 141);
+  margin-top: 100px;
+  padding-top: 10px;
+}
+

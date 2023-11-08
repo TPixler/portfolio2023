@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400;500&family=Creepster&family=Great+Vibes&family=Oswald&family=Raleway:wght@400;700&display=swap");
+
+.github {
+  width: 30px;
+  height: 30px;
+}
+.google {
+  width: 30px;
+  height: 30px;
+}
+.linkedin {
+  width: 30px;
+  height: 30px;
+}
+.funny {
+  width: 150px;
+  height: 350px;
+  /* margin-top: 50px; */
+  margin-left: 50px;
+}
+.quotepic {
+  margin-left: 100px;
+  height: 375px;
+  width: 300px;
+  margin-top: 50px;
+  box-shadow: 10px 10px 25px rgb(51, 51, 103);
+  border: black solid 5px;
+}
+
+.justForFun {
+  margin-left: 765px;
+  font-family: "Great Vibes", cursive;
+  font-weight: bolder;
+  font-size: 50px;
+  text-shadow: 4px 4px 6px black;
+}
