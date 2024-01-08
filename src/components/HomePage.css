@@ -43,6 +43,7 @@ h1 {
   will-change: transform;
   animation: spin 4s ease-in-out 1;
 }
+
 @keyframes spin {
   0% {
     transform: rotate3d(0, 1, 0, 0deg) scale(0.1);
@@ -51,12 +52,14 @@ h1 {
     transform: rotate3d(0, 1, 0, 720deg) scale(1);
   }
 }
+
 p {
   display: flex;
   justify-content: space-between;
   color: blue;
   padding: 10px;
 }
+
 .list1 {
   text-decoration: none;
   color: black;

@@ -13,13 +13,13 @@
   height: 30px;
 }
 .funny {
-  width: 150px;
-  height: 350px;
-  /* margin-top: 50px; */
-  margin-left: 50px;
+  width: 200px;
+  height: 375px;
+  margin-top: -375px;
+  margin-left: 950px;
 }
 .quotepic {
-  margin-left: 100px;
+  margin-left: 600px;
   height: 375px;
   width: 300px;
   margin-top: 50px;
@@ -33,4 +33,5 @@
   font-weight: bolder;
   font-size: 50px;
   text-shadow: 4px 4px 6px black;
+  margin-top: 50px;
 }

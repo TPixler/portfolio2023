@@ -1,15 +1,87 @@
 .typescript {
-    width: 1em; 
-    height: 1em; 
-    vertical-align: middle;
+  width: 1em;
+  height: 1em;
+  vertical-align: middle;
 }
 .firebase {
-    width: 1em; 
-    height: 1em; 
-    vertical-align: middle;
+  width: 1em;
+  height: 1em;
+  vertical-align: middle;
 }
 .mongodb {
-    width: 1em; 
-    height: 1em; 
-    vertical-align: middle;
+  width: 1em;
+  height: 1em;
+  vertical-align: middle;
+}
+
+.languages {
+  background-color: white;
+  border-radius: 10px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  margin: auto;
+  text-align: center;
+  transition: opacity 0.3s;
+  opacity: 0;
+  font-size: 167x;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.language-card {
+  background-color: white;
+  height: calc(100% - 150px);
+  align-self: center;
+  border-radius: 10px;
+  text-align: center;
+  padding-top: 40%;
+  box-shadow: 0px 0px 12px -1px black;
+  margin: auto;
+  overflow: hidden;
+  position: relative;
+  background-image: url("../images/coding1.jpg");
+  background-size: calc(100% - 5px);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.language-card:hover .languages {
+  opacity: 1;
+}
+
+.languages-page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%; 
+}
+
+.language-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:space-between; 
+  width: 100%; 
+}
+
+.language-list li {
+  margin-bottom: 10px;
+}
+
+.language-list img,
+.language-list svg {
+  vertical-align: middle;
+  margin-right: 5px;
+}
+
+.typescript,
+.firebase,
+.mongodb {
+  width: 1em;
+  height: 1em;
+  vertical-align: middle;
 }

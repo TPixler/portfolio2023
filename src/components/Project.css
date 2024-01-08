@@ -22,7 +22,7 @@
 
 @keyframes slideInLeft {
   from {
-    transform: translateX(-300px);
+    transform: translateX(300px);
   }
   to {
     transform: translateX(0);
@@ -30,7 +30,7 @@
 }
 @keyframes slideInRight {
   from {
-    transform: translateX(300px);
+    transform: translateX(-300px);
   }
   to {
     transform: translateX(0);
@@ -39,6 +39,11 @@
 
 .ttm {
   margin-right: -5px;
+}
+
+h2 {
+  font-size: 80px;
+  margin-top: -175px;
 }
 
 .slideInLeft.project {
@@ -55,9 +60,10 @@
   font-family: "Creepster";
 }
 
-.slideInRight {
+.slideInRight.ttm {
   animation-name: slideInRight;
   animation-timing-function: ease-in;
+  margin-left: 50px;
 }
 
 @keyframes rotate {
@@ -77,10 +83,14 @@
 }
 
 @keyframes bounce {
-  0%, 80%, 50%, 100%, 20% {
+  0%,
+  80%,
+  50%,
+  100%,
+  20% {
     transform: translateY(0);
   }
- 
+
   40% {
     transform: translateY(-30px);
   }
@@ -88,7 +98,6 @@
   60% {
     transform: translateY(-15px);
   }
-
 }
 
 .bouce {

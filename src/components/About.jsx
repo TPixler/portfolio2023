@@ -31,7 +31,7 @@ export default function About() {
           onMouseLeave={handleMouseLeave}
         >
           <div className="silhouette">
-            <h2>About Me </h2>
+            <h3>About Me </h3>
             <div className="cover"></div>
           </div>
           <div className="card">
@@ -53,7 +53,7 @@ export default function About() {
           onMouseLeave={handleMouseLeave}
         >
           <div className="silhouette">
-            <h2>Languages </h2>
+            <h3>Languages </h3>
             <div className="cover"></div>
           </div>
           <div className="language-card">
@@ -66,6 +66,4 @@ export default function About() {
     </div>
   );
 }
-{
 
-}
