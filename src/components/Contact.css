@@ -12,14 +12,25 @@
   width: 30px;
   height: 30px;
 }
+
+.justForFun {
+  margin-left: 600px;
+  font-family: "Great Vibes", cursive;
+  font-weight: bolder;
+  font-size: 50px;
+  text-shadow: 4px 4px 6px black;
+  margin-top: 50px;
+}
+
 .funny {
   width: 200px;
   height: 375px;
   margin-top: -375px;
-  margin-left: 950px;
+  margin-left: 1300px;
 }
+
 .quotepic {
-  margin-left: 600px;
+  margin-left: 870px;
   height: 375px;
   width: 300px;
   margin-top: 50px;
@@ -27,11 +38,20 @@
   border: black solid 5px;
 }
 
-.justForFun {
-  margin-left: 765px;
-  font-family: "Great Vibes", cursive;
-  font-weight: bolder;
-  font-size: 50px;
-  text-shadow: 4px 4px 6px black;
-  margin-top: 50px;
+.funnypic {
+  margin-left: 445px;
+  height: 375px;
+  width: 300px;
+  margin-top: -375px;
+  box-shadow: 10px 10px 25px rgb(51, 51, 103);
+  border: black solid 5px;
+}
+
+.funnycodepic {
+  margin-left: 10px;
+  height: 375px;
+  width: 300px;
+  margin-top: -375px;
+  box-shadow: 10px 10px 25px rgb(51, 51, 103);
+  border: black solid 5px;
 }
